@@ -3,7 +3,7 @@ namespace QR;
 
 require ('../vendor/autoload.php');
 use Endroid\QrCode\QrCode;
-class QR {
+class GenerateQR {
 	function generateQR($content, $path=null, $fhand=null) {
 		$qrCode = new QrCode($content);
 		$characters = '1234567890abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
