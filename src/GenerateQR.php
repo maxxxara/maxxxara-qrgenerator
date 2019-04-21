@@ -42,6 +42,10 @@ class GenerateQR {
 		$qrCode = new QrCode($randomString);
 		file_put_contents($fname, $qrCode->writeString());
 	}
+
+	function Test() {
+		echo "test";
+	}
 }
 
 
