@@ -1,5 +1,7 @@
 <?php  
 namespace QR;
+
+require ('../vendor/autoload.php');
 use Endroid\QrCode\QrCode;
 class QR {
 	function generateQR($content, $path=null, $fhand=null) {
@@ -41,9 +43,6 @@ class QR {
 		file_put_contents($fname, $qrCode->writeString());
 	}
 }
-
-$qr = new QR;
-$qr->generateQR('12321');
 
 
 ?>
