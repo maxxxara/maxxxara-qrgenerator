@@ -1,0 +1,14 @@
+{
+    "name": "maxxxara/qrgenerator",
+    "description": "Package for qr code and images generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "qr\\": "src/"
+        }
+    },
+    "require": {
+    	"endroid/qr-code": "3.5.*"
+    }
+}
