@@ -42,8 +42,5 @@ class QR {
 	}
 }
 
-$qr = new QR;
-$qr->generateQR('12321');
-
 
 ?>
